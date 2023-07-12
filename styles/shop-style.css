@@ -1,8 +1,9 @@
- *{
+ /*overall style*/
+*{
     margin: 0px;
     font-family: Lato;
- }
- .button{
+}
+.button{
     border-radius: 8px;
     background: #E55473;
     border: 0px;
@@ -11,22 +12,90 @@
     font-size: 20px;
     font-weight: 700;
 }
+.button:hover{
+    background-color: #933449;
+}
+
+ 
 
 
 
-/*header section*/
-
+/*header section starts*/
 .header{
     background-color: rgba(229, 84, 115, 0.10);
 }
+
+
+/*navigation section starts*/
+.navbar{
+    background-color: rgba(229, 84, 115, 0.156);
+    border: 1px solid rgba(229, 84, 115, 0.201);
+    box-shadow: 0px 0px 5px  rgba(229, 84, 115, 0.201);
+    display: flex;
+}
+.navicon{
+    font-size: 40px;
+    color: #FFF;
+    padding: 10px 380px 10px 50px;
+}
+.navicon span{
+    color: #E55473;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    font-size: 23px;
+    align-items: center;
+}
+.navlist > li{
+    padding: 10px 10px 10px 60px;
+}
+.navlist> li > a{
+    text-decoration: none;
+    color: #111010;
+}
+.navlist a:hover{
+    text-decoration: underline;
+}
+.navlist .flower-menu{
+    display: none;
+}
+.navlist li:hover .flower-menu{
+    margin-top: 10px;
+    display: block;
+    position: absolute;
+    background-color:#FFF;
+    list-style: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+.flower-menu a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #1110108c;
+}
+.navbutton{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    padding: 10px 33px;
+    color: #FFF;
+    font-size: 23px;
+    font-weight: 700;
+}
+.navbutton:hover{
+    background-color: #933449;
+}
+/*navigation section ends*/
+
+
+/*banner section starts*/
 .banner{
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
     align-items: center;
-    padding-top: 40px;
-    
-
+    padding-top: 20px;
 }
 .banner-head{
     color: #272727;
@@ -35,7 +104,6 @@
     font-weight: 800;
     padding-bottom: 32px;
 }
-
 .banner-para{
     color: rgba(39, 39, 39, 0.60);   
     font-size: 18px;
@@ -43,19 +111,23 @@
     line-height: 30px;
     padding-bottom: 32px;
 }
+/*banner section ends*/
+
+/*header section ends*/
+
+  
 
 
 
-/*main section*/
-/*featured section*/
+/*main section starts*/
 
+/*featured section starts*/
 .featured-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-top: 130px;
-
 }
 .featured-para{
     color: rgba(39, 39, 39, 0.60);
@@ -95,10 +167,10 @@
     color: #272727;
     font-size: 24px;
 }
+/*featured section ends*/
 
 
-
-/*support section*/
+/*support section starts*/
 .support-section{
     margin: 100px 170px 100px 170px;
     display: flex;
@@ -113,11 +185,10 @@
 .support-img{
     padding-bottom: 13px;
 }
+/*support section ends*/
 
 
-
-
-/*deal section*/
+/*deal section starts*/
 .deal-section{
     background: rgba(229, 84, 115, 0.05);
 }
@@ -146,17 +217,16 @@
     font-size: 18px;
     padding-bottom: 30px;
 }
+/*deal section ends*/
 
 
-
-/*instagram section*/
+/*instagram section starts*/
 .insta-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-top: 130px;
-
 }
 .insta-para{
     color: rgba(39, 39, 39, 0.60);
@@ -174,10 +244,10 @@
     width: 260px;
     height: 310px;
 }
+/*instagram section ends*/
 
 
-
-/*subscribe section*/
+/*subscribe section starts*/
 .subscribe{
     margin: 100px 150px 100px 150px;
     text-align: center;
@@ -190,8 +260,6 @@
     font-size: 40px;
     font-weight: 800;
     padding-top: 80px;
-
-
 }
 .subs-para{
     color: rgba(39, 39, 39, 0.60);
@@ -208,20 +276,18 @@
     background: #FFF;
     padding: 22px;
     border: 0px;
-    width: 700px;    
+    width: 700px; 
+    outline-color:#e86783;   
 }
-.subs-input input:hover{
-    border-color: #E55473;
-}
+/*subscribe section ends*/
 
 
 
-/*footer section*/
+
+/*footer section starts*/
 .footer{
     background: #111010;
     text-align: center;
-    
-
 }
 .footer h1{
     color: white;
@@ -235,7 +301,6 @@
     color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
     padding-top: 24px;
-
 }
 .copyright{
     color: rgba(255, 255, 255, 0.40);
@@ -243,3 +308,4 @@
     padding-top: 24px;
     padding-bottom: 80px;
 }
+/*footer section ends*/
