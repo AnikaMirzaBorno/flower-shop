@@ -74,19 +74,19 @@
     padding: 12px;
 }
 .figure-img1{
-    padding: 104px 60px 0px 62px;
+    padding: 84px 50px 0px 52px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     margin-bottom: 20px;
 }
 .figure-img2{
-    padding: 113px 31px 49px 31px;
+    padding: 98px 21px 44px 21px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     margin-bottom: 20px;
 }
 .figure-img3{
-    padding: 61px 59px 0px 59px;
+    padding: 41px 49px 0px 49px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     margin-bottom: 20px;
@@ -100,7 +100,7 @@
 
 /*support section*/
 .support-section{
-    margin: 100px 100px;
+    margin: 150px 150px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -150,4 +150,28 @@
 
 
 /*instagram section*/
+.insta-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 130px;
+
+}
+.insta-para{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+.insta-img{
+    text-align: center;
+}
+.insta-img img{
+    padding: 20px;
+    width: 260px;
+    height: 310px;
+}
 
