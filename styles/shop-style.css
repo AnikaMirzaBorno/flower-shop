@@ -100,7 +100,7 @@
 
 /*support section*/
 .support-section{
-    margin: 150px 150px;
+    margin: 100px 170px 100px 170px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -175,3 +175,41 @@
     height: 310px;
 }
 
+
+
+/*subscribe section*/
+.subscribe{
+    margin: 100px 150px 100px 150px;
+    text-align: center;
+    border-radius: 8px;
+    background: url("../Flower Asset/Rectangle\ 9.png");
+    background-size: cover;
+} 
+.subs-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 80px;
+
+
+}
+.subs-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+.subs-input{
+    padding-bottom: 80px;
+}
+.subs-input input{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 22px;
+    border: 0px;
+    width: 700px;    
+}
+.subs-input input:hover{
+    border-color: #E55473;
+}
