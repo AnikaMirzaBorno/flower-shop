@@ -213,3 +213,33 @@
 .subs-input input:hover{
     border-color: #E55473;
 }
+
+
+
+/*footer section*/
+.footer{
+    background: #111010;
+    text-align: center;
+    
+
+}
+.footer h1{
+    color: white;
+    padding-top: 80px;
+    font-size: 48px;
+}
+.footer h1 span{
+    color: #E55473;
+}
+.footer-para{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    padding-top: 24px;
+
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 80px;
+}
