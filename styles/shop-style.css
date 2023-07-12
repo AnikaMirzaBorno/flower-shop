@@ -15,6 +15,7 @@
 
 
 /*header section*/
+
 .header{
     background-color: rgba(229, 84, 115, 0.10);
 }
@@ -42,6 +43,8 @@
     line-height: 30px;
     padding-bottom: 32px;
 }
+
+
 
 /*main section*/
 /*featured section*/
@@ -92,6 +95,9 @@
     color: #272727;
     font-size: 24px;
 }
+
+
+
 /*support section*/
 .support-section{
     margin: 100px 100px;
@@ -107,4 +113,41 @@
 .support-img{
     padding-bottom: 13px;
 }
+
+
+
+
+/*deal section*/
+.deal-section{
+    background: rgba(229, 84, 115, 0.05);
+}
+.deal{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.deal-sale{
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.deal-head{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+.deal-para{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+
+
+/*instagram section*/
 
